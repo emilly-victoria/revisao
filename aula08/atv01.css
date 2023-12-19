@@ -1,0 +1,59 @@
+.box{
+    height: 800px;
+    display: grid;
+    background-color: blueviolet;
+    grid-template-areas: "cab cab"
+                         "cont lat"
+                         "rod rod";      
+grid-template-rows: 100px 1fr 100px;
+grid-template-columns: 1fr 300px;              
+}
+.cab{
+    background-color: brown;
+    grid-area: cab;
+}
+.lat{
+    background-color: blue;
+    grid-area: lat;
+}
+.rod{
+    background-color: chartreuse;
+    grid-area: rod;
+    display: flex;
+}
+.cont{
+    background-color: aqua;
+    grid-area: cont;
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    background-color: pink;
+    height: 33.3%;
+    width: 100%;
+}
+.box2{
+    background-color: crimson;
+    height: 33.3%;
+    width: 100%;
+}
+.box3{
+    background-color: darkorchid;
+    height: 33.3%;
+    width: 100%;
+}
+.e1,.e3{
+    height: 100%;
+    width: 100%;
+}
+.e1{
+    background-color: indigo;
+}
+.e3{
+    background-color: magenta;
+}
+.e2{
+    background-color: darkslateblue;
+    height: 100%;
+    width: 230%;
+}
